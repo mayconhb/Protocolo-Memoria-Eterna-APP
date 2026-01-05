@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mente-eterna-v1';
+const CACHE_NAME = 'mente-eterna-v2';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -51,8 +51,6 @@ self.addEventListener('fetch', (event) => {
           }
         ).catch(() => {
            // Fallback opcional se falhar e não tiver no cache
-           // Aqui poderíamos retornar uma página de "Sem conexão", 
-           // mas como cacheamos tudo acima, geralmente não é necessário.
         });
       })
   );
