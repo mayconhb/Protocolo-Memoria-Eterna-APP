@@ -1,0 +1,23 @@
+{
+  "short_name": "Mente Eterna",
+  "name": "Protocolo Mente Eterna",
+  "icons": [
+    {
+      "src": "https://placehold.co/192x192/004aad/ffffff?text=ME",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://placehold.co/512x512/004aad/ffffff?text=ME",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#004aad",
+  "background_color": "#002a66",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "es"
+}
